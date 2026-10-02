@@ -12,14 +12,12 @@ const io=new IntersectionObserver(entries=>{
 
 items.forEach(el=>io.observe(el));
 
-window.addEventListener('scroll',()=>{
-  const photo=document.querySelector('.hero-photo');
-  if(photo) photo.style.transform=`scale(1.04) translateY(${window.scrollY*.035}px)`;
-});
-
 const modal=document.getElementById('demoModal');
-const closeModal=()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true')};
-const openModal=(event)=>{
+const closeModal=()=>{
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+};
+const openModal=event=>{
   event.preventDefault();
   modal.classList.add('open');
   modal.setAttribute('aria-hidden','false');
