@@ -3,6 +3,26 @@ const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matc
 const sidebar = document.querySelector("#side-navigation");
 const menuButton = document.querySelector(".menu-toggle");
 const navLinks = [...document.querySelectorAll("#main-nav a")];
+const sidebarCollapse = document.querySelector("#sidebar-collapse");
+const railPreferenceKey = "prumo-sidebar-collapsed";
+
+function setSidebarCollapsed(collapsed) {
+  document.body.classList.toggle("is-rail-collapsed", collapsed);
+  sidebarCollapse?.setAttribute("aria-expanded", String(!collapsed));
+  const label = collapsed ? "Expandir barra lateral" : "Recolher barra lateral";
+  sidebarCollapse?.setAttribute("aria-label", label);
+  sidebarCollapse?.setAttribute("title", label);
+}
+try {
+  setSidebarCollapsed(localStorage.getItem(railPreferenceKey) === "true");
+} catch {
+  setSidebarCollapsed(false);
+}
+sidebarCollapse?.addEventListener("click", () => {
+  const collapsed = !document.body.classList.contains("is-rail-collapsed");
+  setSidebarCollapsed(collapsed);
+  try { localStorage.setItem(railPreferenceKey, String(collapsed)); } catch { /* modo privado */ }
+});
 
 function closeMenu() {
   sidebar?.classList.remove("is-open");

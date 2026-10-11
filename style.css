@@ -394,3 +394,35 @@ img{display:block;max-width:100%}
  html{scroll-behavior:auto}
  *,*::before,*::after{animation:none!important;transition:none!important}
 }
+/* Barra lateral recolhível — somente desktop. No celular, mantém-se o menu atual. */
+.sidebar-collapse{
+  position:absolute;top:158px;right:17px;z-index:2;
+  width:36px;height:34px;display:flex;align-items:center;justify-content:center;
+  border:1px solid #a2bdac8a;background:#28463a;color:#e2eee0;
+  transition:background .2s,border-color .2s;
+}
+.sidebar-collapse:hover{background:#486957;border-color:#d3e5d1}
+.sidebar-collapse svg{width:19px;height:19px}
+.side-navigation,.content{transition:width .3s ease,margin-left .3s ease}
+@media(min-width:801px){
+  body.is-rail-collapsed{--rail:76px}
+  body.is-rail-collapsed .side-navigation{padding:34px 9px 22px}
+  body.is-rail-collapsed .side-navigation .brand{justify-content:center}
+  body.is-rail-collapsed .side-navigation .brand-word,
+  body.is-rail-collapsed .side-navigation .side-subtitle,
+  body.is-rail-collapsed .side-navigation .side-bottom,
+  body.is-rail-collapsed .side-navigation .nav-label,
+  body.is-rail-collapsed .side-navigation .rail-arrow{display:none}
+  body.is-rail-collapsed .sidebar-collapse{top:102px;right:18px;width:40px;height:38px}
+  body.is-rail-collapsed .collapse-icon{transform:rotate(180deg)}
+  body.is-rail-collapsed .rail-nav{margin:103px -9px 0}
+  body.is-rail-collapsed .rail-nav a{display:flex;align-items:center;justify-content:center;min-height:60px;padding:14px 0}
+  body.is-rail-collapsed .rail-nav .nav-index{font:600 12px var(--mono)}
+  body.is-rail-collapsed .side-navigation .brand-symbol{width:49px;height:49px}
+}
+@media(max-width:800px){
+  .sidebar-collapse{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .side-navigation,.content,.sidebar-collapse{transition:none}
+}
