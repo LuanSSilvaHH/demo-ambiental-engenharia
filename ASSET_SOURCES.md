@@ -1,11 +1,12 @@
-# Imagens de referência da demonstração
+# Referências fotográficas — PRUMO Engenharia Civil (demonstração)
 
-As imagens são ilustrativas de paisagem. **Não representam locais vistoriados ou projetos executados pela Ambiental Engenharia.**
+As imagens são ilustrativas, e não são fotografias de obras executadas pela marca. Imagens baixadas do Unsplash para esta reformulação:
 
-O projeto original já incluía as três fotografias JPG sem atribuição de autoria documentada. Seus originais foram preservados. Apenas criamos versões WebP menores para exibição no site.
+- `assets/civil-rural.webp` — residência contemporânea, original em https://images.unsplash.com/photo-1600585154340-be6161a56a0c
+- `assets/civil-commercial.webp` — edifícios comerciais, original em https://images.unsplash.com/photo-1486406146926-c627a92ad1ab
+- `assets/civil-hero.webp` — canteiro de obras, original em https://images.unsplash.com/photo-1541888946425-d81bb19240f5
+- `assets/civil-technical.webp` — equipe na construção, original em https://images.unsplash.com/photo-1504307651254-35680f356dfd
 
-- `assets/forest.webp` — derivado de `nature-2.jpg` (floresta e lago)
-- `assets/water.webp` — derivado de `nature-1.jpg` (lago e montanhas)
-- `assets/terrain.webp` — derivado de `nature-4.jpg` (estrada e terreno árido)
+Conferir as condições de licença em https://unsplash.com/license antes de entregar comercialmente a um cliente.
 
-Antes de licenciar comercialmente esta demonstração, confirme a procedência e os direitos de uso das imagens originais ou substitua por imagens autorizadas pelo cliente.
+As imagens ambientais originais, que pertenciam à versão anterior do projeto, foram mantidas no histórico do Git para eventual recuperação. A marca PRUMO e os processos descritos são ilustrativos, sem dados de clientes, certificações, registro profissional ou números fictícios.

@@ -2,168 +2,183 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#071a16" />
-  <meta name="description" content="Ambiental Engenharia — conceito de site para consultoria ambiental, licenciamento, outorga, laudos e projetos. Técnica, território e futuro." />
-  <meta property="og:title" content="Ambiental Engenharia | Inteligência para o território" />
-  <meta property="og:description" content="Engenharia ambiental com olhar técnico e respeito ao território. Site demonstrativo." />
-  <title>Ambiental Engenharia | Inteligência para o território</title>
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#192b27" />
+  <meta name="description" content="PRUMO Engenharia Civil — demonstração de site para projetos, obras, reformas, vistorias e regularização de imóveis. Planejamento que dá forma às suas ideias." />
+  <meta property="og:title" content="PRUMO | Engenharia Civil" />
+  <meta property="og:description" content="Da ideia à execução: uma nova forma de apresentar serviços de engenharia civil." />
+  <title>PRUMO | Engenharia Civil e Projetos</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body id="inicio">
-  <a class="skip-link" href="#sobre">Pular para o conteúdo</a>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="header" id="header">
-    <a class="brand" href="#inicio" aria-label="Ambiental Engenharia, início">
-      <span class="brand-symbol" aria-hidden="true">
-        <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 36C12 16 27 8 48 17M5 42c12-20 27-25 42-17M12 47c10-13 19-18 35-13" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-          <circle cx="34" cy="12" r="4" fill="currentColor" />
-        </svg>
-      </span>
-      <span class="brand-copy"><strong>AMBIENTAL<span class="brand-dot">.</span></strong><small>ENGENHARIA & CONSULTORIA</small></span>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="header">
+    <a class="brand" href="#inicio" aria-label="PRUMO Engenharia Civil, início">
+      <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 54 54" fill="none"><path d="M8 45V9h16c13 0 20 6 20 17S37 43 24 43H8" stroke="currentColor" stroke-width="3"/><path d="M22 15v25M10 40h30" stroke="currentColor" stroke-width="1.5"/><circle cx="43" cy="12" r="3" fill="currentColor"/></svg></span>
+      <span class="brand-lockup"><strong>PRUMO<span>.</span></strong><small>ENGENHARIA CIVIL</small></span>
     </a>
-    <nav class="nav" id="primary-navigation" aria-label="Navegação principal">
-      <a href="#sobre">Nossa visão</a>
-      <a href="#territorios">Territórios</a>
-      <a href="#servicos">Serviços</a>
-      <a class="nav-mobile-action" href="#contato">Iniciar projeto ↗</a>
+    <nav class="site-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="#metodo">Como trabalhamos</a>
+      <a href="#servicos">Soluções</a>
+      <a href="#atuacao">Áreas de atuação</a>
+      <a href="#diferenciais">Nossa abordagem</a>
+      <a class="mobile-cta" href="#contato">Solicitar consultoria ↗</a>
     </nav>
-    <a class="menu-cta" href="#contato">INICIAR PROJETO <span aria-hidden="true">↗</span></a>
-    <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <a class="header-cta" href="#contato">CONVERSE SOBRE SEU PROJETO <span aria-hidden="true">↗</span></a>
+    <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-controls="main-nav" aria-expanded="false"><span></span><span></span><span></span></button>
   </header>
-  <main>
+
+  <main id="conteudo">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-shade" aria-hidden="true"></div>
-      <div class="hero-topline">
-        <span><i class="status-point"></i> ENGENHARIA AMBIENTAL / CONCEITO 2026</span>
-        <span>IPATINGA — MINAS GERAIS</span>
-      </div>
-      <div class="hero-main">
-        <p class="eyebrow"><span class="eyebrow-line"></span> CONECTANDO TÉCNICA E NATUREZA</p>
-        <h1 id="hero-title">O FUTURO<br/>COMEÇA NO <em>TERRITÓRIO.</em></h1>
-        <p class="hero-lead">Inteligência ambiental para compreender lugares, orientar decisões e construir caminhos mais responsáveis.</p>
+      <div class="hero-copy">
+        <div class="hero-overline"><span class="tiny-square"></span><span>ENGENHARIA COM VISÃO DE CONJUNTO</span><span class="hero-issue">EST. / CONCEITO 2026</span></div>
+        <h1 id="hero-title">Seu projeto começa com <em>boas decisões.</em></h1>
+        <p>Projetos, obras e regularização com uma abordagem que valoriza clareza, planejamento e atenção a cada etapa.</p>
         <div class="hero-actions">
-          <a class="hero-primary" href="#servicos">EXPLORAR SOLUÇÕES <span aria-hidden="true">↗</span></a>
-          <a class="hero-secondary" href="#sobre">NOSSA ABORDAGEM <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-dark" href="#servicos">EXPLORE NOSSAS SOLUÇÕES <span aria-hidden="true">↗</span></a>
+          <a class="btn-underline" href="#metodo">ENTENDA O PROCESSO <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-keywords" aria-label="Principais frentes de atuação">
+          <span>PROJETOS</span><span>OBRAS</span><span>REGULARIZAÇÃO</span>
         </div>
       </div>
-      <aside class="hero-compass" aria-label="Áreas de atuação">
-        <div class="compass-top"><span>ANÁLISE / PLANEJAMENTO</span><span>01—03</span></div>
-        <div class="compass-symbol" aria-hidden="true"><div class="compass-rings"></div><span class="compass-axis axis-a"></span><span class="compass-axis axis-b"></span><div class="compass-core">✳</div></div>
-        <div class="compass-bottom"><span>ÁGUA</span><span>SOLO</span><span>AMBIENTE</span></div>
-      </aside>
-      <div class="hero-rail">
-        <span>01 / UMA NOVA PERSPECTIVA</span>
-        <a href="#sobre">DESCUBRA A EXPERIÊNCIA <span aria-hidden="true">↓</span></a>
-        <span>PROJETAR COM PROPÓSITO</span>
-      </div>
-    </section>
-    <div class="marquee" aria-hidden="true"><div class="marquee-track">
-      <span>PLANEJAMENTO</span><i>✳</i><span>LICENCIAMENTO</span><i>✳</i><span>GESTÃO DE RECURSOS</span><i>✳</i><span>RESPONSABILIDADE</span><i>✳</i>
-      <span>PLANEJAMENTO</span><i>✳</i><span>LICENCIAMENTO</span><i>✳</i><span>GESTÃO DE RECURSOS</span><i>✳</i><span>RESPONSABILIDADE</span><i>✳</i>
-    </div></div>
-    <section class="intro section-shell" id="sobre" aria-labelledby="about-title">
-      <div class="intro-side"><span class="section-no">01</span><span class="section-name">NOSSA VISÃO</span></div>
-      <div class="intro-copy">
-        <p class="intro-small">ENTENDER. PLANEJAR. TRANSFORMAR.</p>
-        <h2 id="about-title">Toda grande decisão começa com um olhar <em>mais profundo.</em></h2>
-        <div class="intro-text"><p>Projetos ambientais exigem equilíbrio entre responsabilidade, planejamento e viabilidade. É nesse encontro que a engenharia faz diferença.</p><p>Uma abordagem que traduz demandas técnicas em processos compreensíveis, com atenção às particularidades de cada território.</p></div>
-        <a class="inline-link" href="#servicos">CONHEÇA NOSSAS SOLUÇÕES <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-    <section class="wide-feature" aria-label="Visão de ambiente e planejamento">
-      <div class="feature-photo"><img src="assets/water.webp" alt="Paisagem natural com lago e montanhas, fotografia ilustrativa" loading="lazy"/></div>
-      <div class="feature-scrim"></div>
-      <div class="wide-feature-content section-shell">
-        <span class="feature-index">02 / A NATUREZA COMO PONTO DE PARTIDA</span>
-        <h2>O DESENVOLVIMENTO<br/>PRECISA DE <em>VISÃO.</em></h2>
-        <p>Olhar para o território é enxergar possibilidades, responsabilidades e o impacto das escolhas feitas hoje.</p>
-      </div>
-      <span class="feature-corner">AMBIENTAL / LAND STUDY 002</span>
-    </section>
-    <section class="projects" id="territorios" aria-labelledby="territory-title">
-      <div class="projects-head">
-        <div><span class="section-no">03</span><span class="section-name">LEITURAS DO TERRITÓRIO</span></div>
-        <h2 id="territory-title">Cada paisagem conta uma história. <em>Nós começamos ouvindo.</em></h2>
-        <p>Uma galeria visual ilustrativa de diferentes paisagens e contextos ambientais.</p>
-      </div>
-      <div class="project-grid">
-        <figure class="project-card project-a">
-          <img src="assets/forest.webp" alt="Lago cercado por floresta e montanhas, paisagem ilustrativa" loading="lazy" />
-          <figcaption><span>01 / ÁGUA E ECOSSISTEMAS</span><strong>Água é território.</strong></figcaption>
-        </figure>
-        <div class="project-quote">
-          <span>VISÃO / 01</span><div class="quote-circle">✳</div><p>“O melhor projeto começa entendendo onde ele está.”</p>
+      <div class="hero-photo">
+        <img src="./assets/civil-rural.webp" alt="Residência contemporânea com integração entre arquitetura e paisagem, fotografia ilustrativa" fetchpriority="high" />
+        <div class="photo-grid-lines" aria-hidden="true"></div>
+        <div class="hero-photo-overlay">
+          <span>VISÃO TÉCNICA / PERSPECTIVA 001</span>
+          <span>DA IDEIA AO ESPAÇO CONSTRUÍDO</span>
         </div>
-        <figure class="project-card project-b">
-          <img src="assets/terrain.webp" alt="Estrada entre formações rochosas, fotografia ilustrativa de diferentes características de solo" loading="lazy" />
-          <figcaption><span>02 / SOLO E PAISAGEM</span><strong>O valor do contexto.</strong></figcaption>
-        </figure>
-        <figure class="project-card project-c">
-          <img src="assets/water.webp" alt="Lago de águas claras e montanhas, paisagem ilustrativa" loading="lazy" />
-          <figcaption><span>03 / PLANEJAMENTO</span><strong>Olhar além do presente.</strong></figcaption>
-        </figure>
+        <div class="hero-data" aria-hidden="true">
+          <span>PR / 01</span>
+          <strong>FORMA.<br />FUNÇÃO.<br />FUTURO.</strong>
+          <div class="coordinate">19°28' S / 42°32' W</div>
+        </div>
       </div>
-      <p class="gallery-disclaimer">FOTOGRAFIAS ILUSTRATIVAS • NÃO REPRESENTAM PROJETOS EXECUTADOS PELA EMPRESA</p>
+      <div class="hero-bottom"><span>PROJETAR É ANTECIPAR O PRÓXIMO PASSO.</span><a href="#pilares">DESCUBRA MAIS <span aria-hidden="true">↓</span></a></div>
     </section>
+
+    <section class="pillars" id="pilares" aria-labelledby="pillars-title">
+      <div class="pillars-lead">
+        <span class="section-kicker">01 / FUNDAMENTOS</span>
+        <h2 id="pillars-title">Da análise à execução, <em>clareza em cada etapa.</em></h2>
+      </div>
+      <div class="pillars-items">
+        <article><span class="pillar-symbol" aria-hidden="true">⌕</span><span class="pillar-count">01 —</span><h3>Diagnóstico</h3><p>Entender seu objetivo, o imóvel e as exigências antes de decidir.</p></article>
+        <article><span class="pillar-symbol" aria-hidden="true">⌗</span><span class="pillar-count">02 —</span><h3>Projeto</h3><p>Traduzir necessidades em desenhos, soluções e documentação técnica.</p></article>
+        <article><span class="pillar-symbol" aria-hidden="true">↗</span><span class="pillar-count">03 —</span><h3>Acompanhamento</h3><p>Organizar informações e orientar as próximas etapas da execução.</p></article>
+      </div>
+    </section>
+
+    <section class="process" id="metodo" aria-labelledby="process-title">
+      <div class="process-intro"><div class="process-intro-copy">
+        <span class="section-kicker">02 / COMO FUNCIONA</span>
+        <h2 id="process-title">Um caminho bem definido muda <em>o resultado.</em></h2>
+        <p>Um processo demonstrativo para mostrar como uma equipe de engenharia civil pode conduzir cada demanda com mais organização.</p>
+      </div><div class="process-drawing" aria-hidden="true"><span class="drawing-cube"></span><span>PLANTA / ESQUEMA CONCEITUAL</span></div></div>
+      <div class="process-steps">
+        <article><span class="step-number">01</span><div class="step-line"></div><h3>Conversa inicial</h3><p>Entendemos o desafio, os objetivos e o tipo de imóvel.</p></article>
+        <article><span class="step-number">02</span><div class="step-line"></div><h3>Levantamento</h3><p>Reunimos dados e verificamos as condições da demanda.</p></article>
+        <article><span class="step-number">03</span><div class="step-line"></div><h3>Proposta técnica</h3><p>Definimos o escopo e os próximos passos do projeto.</p></article>
+        <article><span class="step-number">04</span><div class="step-line"></div><h3>Desenvolvimento</h3><p>Produzimos estudos, projetos ou documentação necessária.</p></article>
+        <article><span class="step-number">05</span><div class="step-line"></div><h3>Orientação final</h3><p>Apresentamos as entregas e o que fazer a seguir.</p></article>
+      </div>
+    </section>
+
     <section class="services" id="servicos" aria-labelledby="services-title">
-      <div class="services-title">
-        <div><span class="section-no">04</span><span class="section-name">ÁREAS DE ATUAÇÃO</span></div>
-        <div><h2 id="services-title">SOLUÇÕES QUE <em>FAZEM SENTIDO.</em></h2><p>Do diagnóstico à regularização, uma base técnica para decisões ambientais mais conscientes.</p></div>
+      <div class="services-intro">
+        <span class="section-kicker">03 / O QUE PODEMOS FAZER</span>
+        <h2 id="services-title">Soluções que transformam <em>planos em realidade.</em></h2>
+        <p>Do primeiro desenho às exigências de regularização, explore como a engenharia civil atende necessidades diversas.</p>
+        <a href="#contato" class="text-link">SOLICITAR UMA CONSULTA <span aria-hidden="true">↗</span></a>
+        <div class="intro-photo"><img src="./assets/civil-technical.webp" alt="Profissionais trabalhando em estrutura de obra, fotografia ilustrativa" loading="lazy"/><span>VISÃO DE OBRA / 002</span></div>
       </div>
-      <div class="service-list">
-        <a href="#contato" data-service="Licenciamento Ambiental" class="service-entry"><span class="service-count">01</span><h3>Licenciamento Ambiental</h3><p>Orientação e acompanhamento técnico em processos de licenciamento.</p><i aria-hidden="true">↗</i></a>
-        <a href="#contato" data-service="Outorga de Água" class="service-entry"><span class="service-count">02</span><h3>Outorga de Água</h3><p>Apoio à regularização do uso de recursos hídricos.</p><i aria-hidden="true">↗</i></a>
-        <a href="#contato" data-service="Laudos Técnicos" class="service-entry"><span class="service-count">03</span><h3>Laudos Técnicos</h3><p>Análises, documentação e suporte técnico especializado.</p><i aria-hidden="true">↗</i></a>
-        <a href="#contato" data-service="CAR e CTF" class="service-entry"><span class="service-count">04</span><h3>CAR e CTF</h3><p>Cadastros, orientações e acompanhamento de regularizações ambientais.</p><i aria-hidden="true">↗</i></a>
-        <a href="#contato" data-service="Projetos Ambientais" class="service-entry"><span class="service-count">05</span><h3>Projetos Ambientais</h3><p>Estudos e soluções técnicas ajustadas ao contexto de cada demanda.</p><i aria-hidden="true">↗</i></a>
+      <div class="services-accordion" id="service-list">
+        <details class="service-detail" open>
+          <summary><span class="service-id">01</span><span class="service-name">Projetos estruturais</span><span class="summary-arrow" aria-hidden="true">+</span></summary>
+          <div class="service-panel"><p>Estudos e dimensionamentos estruturais desenvolvidos conforme as características da construção e as normas técnicas aplicáveis.</p><div class="service-tags"><span>ESTRUTURAS</span><span>PLANEJAMENTO</span></div><a href="#contato" data-service="Projetos estruturais">CONVERSAR SOBRE ESTE SERVIÇO ↗</a></div>
+        </details>
+        <details class="service-detail">
+          <summary><span class="service-id">02</span><span class="service-name">Gerenciamento de obras</span><span class="summary-arrow" aria-hidden="true">+</span></summary>
+          <div class="service-panel"><p>Planejamento de etapas, acompanhamento de cronograma e organização das decisões ao longo da obra.</p><div class="service-tags"><span>OBRA</span><span>CRONOGRAMA</span></div><a href="#contato" data-service="Gerenciamento de obras">CONVERSAR SOBRE ESTE SERVIÇO ↗</a></div>
+        </details>
+        <details class="service-detail">
+          <summary><span class="service-id">03</span><span class="service-name">Regularização de imóveis</span><span class="summary-arrow" aria-hidden="true">+</span></summary>
+          <div class="service-panel"><p>Apoio com levantamento, documentação técnica e processos de regularização, conforme exigências locais.</p><div class="service-tags"><span>DOCUMENTAÇÃO</span><span>IMÓVEIS</span></div><a href="#contato" data-service="Regularização de imóveis">CONVERSAR SOBRE ESTE SERVIÇO ↗</a></div>
+        </details>
+        <details class="service-detail">
+          <summary><span class="service-id">04</span><span class="service-name">Laudos e vistorias</span><span class="summary-arrow" aria-hidden="true">+</span></summary>
+          <div class="service-panel"><p>Inspeções, avaliações técnicas e documentos para compreender manifestações patológicas ou condições da edificação.</p><div class="service-tags"><span>AVALIAÇÃO</span><span>SEGURANÇA</span></div><a href="#contato" data-service="Laudos e vistorias">CONVERSAR SOBRE ESTE SERVIÇO ↗</a></div>
+        </details>
+        <details class="service-detail">
+          <summary><span class="service-id">05</span><span class="service-name">Reformas e ampliações</span><span class="summary-arrow" aria-hidden="true">+</span></summary>
+          <div class="service-panel"><p>Planejamento técnico de alterações, adequações e ampliações, considerando a estrutura existente e os objetivos do cliente.</p><div class="service-tags"><span>REFORMAS</span><span>ADEQUAÇÕES</span></div><a href="#contato" data-service="Reformas e ampliações">CONVERSAR SOBRE ESTE SERVIÇO ↗</a></div>
+        </details>
       </div>
     </section>
-    <section class="manifesto" aria-labelledby="manifesto-title">
-      <div class="manifesto-bg" aria-hidden="true"></div><div class="manifesto-overlay" aria-hidden="true"></div>
-      <div class="manifesto-copy"><span>05 / NOSSO PROPÓSITO</span><div><h2 id="manifesto-title">TÉCNICA PARA O PRESENTE. <em>VISÃO PARA O AMANHÃ.</em></h2><a href="#contato">VAMOS CONVERSAR <span aria-hidden="true">↗</span></a></div></div>
+
+    <section class="contexts" id="atuacao" aria-labelledby="contexts-title">
+      <div class="contexts-heading"><span class="section-kicker">04 / ONDE ATUAMOS</span><h2 id="contexts-title">Uma engenharia. <em>Muitos contextos.</em></h2><p>Possibilidades para residências, empreendimentos e obras em diferentes fases.</p></div>
+      <div class="contexts-grid">
+        <a class="context-card" href="#contato" data-interest="Residências e reformas"><img src="./assets/civil-rural.webp" alt="Residência contemporânea, imagem ilustrativa" loading="lazy"/><span class="context-number">01 / RESIDENCIAL</span><div><h3>Seu espaço, suas ideias.</h3><p>Projetos, reformas e regularização para imóveis residenciais.</p><span aria-hidden="true">↗</span></div></a>
+        <a class="context-card" href="#contato" data-interest="Empreendimentos comerciais"><img src="./assets/civil-commercial.webp" alt="Edifícios corporativos vistos de baixo, fotografia ilustrativa" loading="lazy"/><span class="context-number">02 / COMERCIAL</span><div><h3>Estruturas que impulsionam.</h3><p>Planejamento e soluções técnicas para espaços comerciais.</p><span aria-hidden="true">↗</span></div></a>
+        <a class="context-card" href="#contato" data-interest="Obras e construções"><img src="./assets/civil-hero.webp" alt="Equipe trabalhando em obra de construção, fotografia ilustrativa" loading="lazy"/><span class="context-number">03 / CONSTRUÇÃO</span><div><h3>Planejar. Construir. Evoluir.</h3><p>Orientação técnica e gerenciamento em etapas de obra.</p><span aria-hidden="true">↗</span></div></a>
+      </div>
+      <p class="context-disclaimer">FOTOGRAFIAS ILUSTRATIVAS • NÃO REPRESENTAM OBRAS EXECUTADAS PELA MARCA</p>
     </section>
+
+    <section class="values" id="diferenciais" aria-labelledby="values-title">
+      <div class="values-label"><span class="section-kicker">05 / NOSSA ABORDAGEM</span><span class="values-symbol" aria-hidden="true">⌗</span></div>
+      <div class="values-body"><h2 id="values-title">A obra começa muito antes do <em>primeiro tijolo.</em></h2>
+        <p>Boa engenharia conecta técnica, comunicação e visão de longo prazo. Essa é a experiência que esta demonstração foi projetada para transmitir.</p>
+        <div class="values-list">
+          <div><span>01</span><strong>Escopo bem definido</strong><p>O que será feito e por quê.</p></div>
+          <div><span>02</span><strong>Etapas compreensíveis</strong><p>Informação clara para decidir.</p></div>
+          <div><span>03</span><strong>Visão integrada</strong><p>O projeto como parte do todo.</p></div>
+        </div>
+      </div>
+    </section>
+
     <section class="contact" id="contato" aria-labelledby="contact-title">
-      <div class="contact-meta"><span>06 / INICIAR UMA CONVERSA</span><span>IPATINGA — MINAS GERAIS</span></div>
-      <div class="contact-grid">
-        <div class="contact-copy"><h2 id="contact-title">SEU PROJETO<br/>COMEÇA COM <em>UMA IDEIA.</em></h2><p>Descreva sua necessidade e veja como a solicitação de contato pode funcionar na versão final do site.</p><span class="contact-footnote">CONCEITO DEMONSTRATIVO / SEM ENVIO DE DADOS</span></div>
-        <form class="brief-form" id="brief-form">
-          <div class="brief-head"><span>BRIEFING / DEMONSTRAÇÃO</span><span>01 — 03</span></div>
-          <label for="brief-name">COMO PODEMOS CHAMAR VOCÊ?</label>
-          <input id="brief-name" name="name" maxlength="80" required placeholder="Seu nome" autocomplete="name" />
-          <label for="brief-service">QUAL SERVIÇO VOCÊ PROCURA?</label>
-          <select id="brief-service" name="service" required>
-            <option value="Licenciamento Ambiental">Licenciamento Ambiental</option>
-            <option value="Outorga de Água">Outorga de Água</option>
-            <option value="Laudos Técnicos">Laudos Técnicos</option>
-            <option value="CAR e CTF">CAR e CTF</option>
-            <option value="Projetos Ambientais">Projetos Ambientais</option>
-            <option value="Quero orientação">Não tenho certeza / quero orientação</option>
-          </select>
-          <label for="brief-description">FALE UM POUCO DA SUA DEMANDA</label>
-          <textarea id="brief-description" name="description" placeholder="Opcional: o que você precisa resolver?" maxlength="600" rows="4"></textarea>
-          <button class="brief-submit" type="submit">PREPARAR SOLICITAÇÃO <span aria-hidden="true">↗</span></button>
-          <p>Esta é uma demonstração. Os dados não são armazenados nem enviados a nenhuma empresa.</p>
-        </form>
+      <div class="contact-copy"><span class="section-kicker">06 / VAMOS COMEÇAR?</span><h2 id="contact-title">Conte sobre o seu <em>próximo projeto.</em></h2><p>Descreva o que você precisa. A demonstração monta uma mensagem para você visualizar e copiar, sem enviar informações para terceiros.</p>
+        <div class="contact-technical"><span>PRUMO / ENGENHARIA CIVIL</span><span>CONCEITO DEMONSTRATIVO</span></div>
       </div>
+      <form id="brief-form" class="brief-form">
+        <div class="form-top"><span>BRIEFING / SOLICITAÇÃO</span><span>01 — 04</span></div>
+        <label for="brief-name">Seu nome</label><input id="brief-name" name="name" required maxlength="80" autocomplete="name" placeholder="Como podemos chamar você?" />
+        <label for="brief-service">O que você precisa?</label>
+        <select name="service" id="brief-service" required>
+          <option value="" disabled selected>Selecione a área do projeto</option>
+          <option value="Projetos estruturais">Projetos estruturais</option>
+          <option value="Gerenciamento de obras">Gerenciamento de obras</option>
+          <option value="Regularização de imóveis">Regularização de imóveis</option>
+          <option value="Laudos e vistorias">Laudos e vistorias</option>
+          <option value="Reformas e ampliações">Reformas e ampliações</option>
+          <option value="Residências e reformas">Residências e reformas</option>
+          <option value="Empreendimentos comerciais">Empreendimentos comerciais</option>
+          <option value="Obras e construções">Obras e construções</option>
+          <option value="Ainda não sei">Preciso de orientação</option>
+        </select>
+        <label for="brief-city">Localização do projeto</label><input id="brief-city" name="city" maxlength="100" placeholder="Cidade / Estado (opcional)" autocomplete="off" />
+        <label for="brief-description">Conte um pouco mais</label><textarea id="brief-description" name="description" maxlength="700" rows="3" placeholder="Ex.: quero reformar um imóvel e preciso avaliar a estrutura."></textarea>
+        <button type="submit" class="submit-btn">PREPARAR SOLICITAÇÃO <span aria-hidden="true">↗</span></button>
+        <p>Site demonstrativo. Os dados não são armazenados nem enviados.</p>
+      </form>
     </section>
   </main>
-  <footer><a class="footer-brand" href="#inicio">AMBIENTAL<span>.</span></a><span>ENGENHARIA & CONSULTORIA / CONCEITO</span><a href="#inicio">VOLTAR AO INÍCIO ↑</a></footer>
-  <div class="demo-badge" aria-label="Site demonstrativo">SITE DEMONSTRATIVO</div>
-  <dialog class="demo-dialog" id="brief-dialog" aria-labelledby="dialog-title">
-    <div class="dialog-head"><span>VISUALIZAÇÃO / SOLICITAÇÃO</span><button type="button" class="dialog-close" aria-label="Fechar">×</button></div>
-    <h2 id="dialog-title">Sua mensagem está pronta.</h2>
-    <p>Na versão final, a empresa poderá receber esta solicitação por WhatsApp ou outro canal. Aqui você pode copiá-la.</p>
-    <textarea id="brief-preview" readonly rows="8" aria-label="Prévia da solicitação"></textarea>
-    <button type="button" class="dialog-copy">COPIAR MENSAGEM <span aria-hidden="true">↗</span></button>
-    <p class="dialog-status" role="status" aria-live="polite"></p>
+  <footer class="footer"><a href="#inicio" class="footer-brand">PRUMO<span>.</span></a><div><span>ENGENHARIA CIVIL & PROJETOS</span><span>IDENTIDADE ILUSTRATIVA / 2026</span></div><a href="#inicio">VOLTAR AO INÍCIO ↑</a></footer>
+  <div class="demo-label">DEMONSTRAÇÃO</div>
+  <dialog class="brief-dialog" id="brief-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header"><span>PRÉVIA DA SOLICITAÇÃO</span><button type="button" class="close-dialog" aria-label="Fechar">×</button></div>
+    <h2 id="dialog-title">Seu briefing está pronto.</h2><p>Este é um modelo de site. A mensagem abaixo pode ser copiada; nenhum número comercial está configurado.</p>
+    <textarea id="brief-preview" readonly rows="8" aria-label="Mensagem de solicitação"></textarea>
+    <button type="button" class="copy-message">COPIAR MENSAGEM <span aria-hidden="true">↗</span></button>
+    <p class="copy-feedback" role="status" aria-live="polite"></p>
   </dialog>
-  <script src="script.js" defer></script>
+  <script src="./script.js" defer></script>
 </body>
 </html>
