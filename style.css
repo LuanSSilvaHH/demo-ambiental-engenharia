@@ -426,3 +426,11 @@ img{display:block;max-width:100%}
 @media(prefers-reduced-motion:reduce){
   .side-navigation,.content,.sidebar-collapse{transition:none}
 }
+
+/* Envio opcional do briefing ao WhatsApp sem número comercial predefinido. */
+.whatsapp-action{display:flex;align-items:center;justify-content:space-between;gap:15px;width:100%;margin-top:16px;padding:17px 20px;background:#167c4e;color:#fffef9;font:600 11px var(--mono);transition:background .2s}
+.whatsapp-action:hover{background:#12683f}
+.whatsapp-action span{font-size:19px}
+.whatsapp-action:focus-visible{outline:2px solid #8acc8d;outline-offset:3px}
+.copy-action{background:#e8eee4;color:#244431;border:1px solid #b9cbb9;margin-top:9px}
+.copy-action:hover{background:#d7e4d5}

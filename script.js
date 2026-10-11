@@ -173,6 +173,8 @@ plannerForm?.addEventListener("submit", event => {
     `Descrição: ${notes || "Gostaria de receber orientações."}`
   ].join("\n");
   if (messagePreview) messagePreview.value = text;
+  const whatsappLink = document.querySelector("#whatsapp-action");
+  if (whatsappLink) whatsappLink.href = "https://api.whatsapp.com/send?text=" + encodeURIComponent(text);
   if (formAlert) formAlert.textContent = "";
   if (copyStatus) copyStatus.textContent = "";
   messageDialog?.showModal();
